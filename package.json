@@ -12,9 +12,6 @@
 	"engines": {
 		"vscode": "^1.80.0"
 	},
-	"extensionDependencies": [
-		"antigravity.antigravity"
-	],
 	"categories": [
 		"Keymaps"
 	],
