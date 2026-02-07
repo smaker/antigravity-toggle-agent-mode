@@ -26,6 +26,10 @@
 			{
 				"command": "antigravity-toggle.switchToPlanning",
 				"title": "%antigravity.command.switchToPlanning%"
+			},
+			{
+				"command": "antigravity-toggle.toggleMode",
+				"title": "%antigravity.command.toggleMode%"
 			}
 		],
 		"keybindings": [
@@ -40,6 +44,11 @@
 				"key": "ctrl+alt+p",
 				"mac": "cmd+alt+p",
 				"when": "editorTextFocus"
+			},
+			{
+				"command": "antigravity-toggle.toggleMode",
+				"key": "shift+tab",
+				"when": "sideBarFocus && activeSection == 'antigravity.chatView'"
 			}
 		]
 	},
