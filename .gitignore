@@ -24,3 +24,4 @@ Thumbs.db
 
 # Agent
 .agent/skills
+.agent/workflows

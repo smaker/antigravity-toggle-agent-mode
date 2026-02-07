@@ -1,60 +1,60 @@
 {
-  "name": "antigravity-mode-toggle",
-  "displayName": "%antigravity.displayName%",
-  "description": "%antigravity.description%",
-  "version": "0.0.1",
-  "publisher": "SimpleSoft",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "extensionDependencies": [
-    "antigravity.antigravity"
-  ],
-  "categories": [
-    "Keymaps"
-  ],
-  "activationEvents": [],
-  "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "antigravity-toggle.switchToFast",
-        "title": "%antigravity.command.switchToFast%"
-      },
-      {
-        "command": "antigravity-toggle.switchToPlanning",
-        "title": "%antigravity.command.switchToPlanning%"
-      }
-    ],
-    "keybindings": [
-      {
-        "command": "antigravity-toggle.switchToFast",
-        "key": "ctrl+alt+f",
-        "mac": "cmd+alt+f",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "antigravity-toggle.switchToPlanning",
-        "key": "ctrl+alt+p",
-        "mac": "cmd+alt+p",
-        "when": "editorTextFocus"
-      }
-    ]
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.3.14",
-    "@types/node": "^16.x",
-    "@types/vscode": "^1.80.0",
-    "@vscode/l10n-dev": "^0.0.35",
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "@vscode/l10n": "^0.0.18"
-  }
+	"name": "antigravity-mode-toggle",
+	"displayName": "%antigravity.displayName%",
+	"description": "%antigravity.description%",
+	"version": "0.0.1",
+	"publisher": "Simplesoft",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"extensionDependencies": [
+		"antigravity.antigravity"
+	],
+	"categories": [
+		"Keymaps"
+	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "antigravity-toggle.switchToFast",
+				"title": "%antigravity.command.switchToFast%"
+			},
+			{
+				"command": "antigravity-toggle.switchToPlanning",
+				"title": "%antigravity.command.switchToPlanning%"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "antigravity-toggle.switchToFast",
+				"key": "ctrl+alt+f",
+				"mac": "cmd+alt+f",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "antigravity-toggle.switchToPlanning",
+				"key": "ctrl+alt+p",
+				"mac": "cmd+alt+p",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.14",
+		"@types/node": "^16.x",
+		"@types/vscode": "^1.80.0",
+		"@vscode/l10n-dev": "^0.0.35",
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@vscode/l10n": "^0.0.18"
+	}
 }

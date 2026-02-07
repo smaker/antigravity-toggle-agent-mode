@@ -8,6 +8,7 @@
 
 - **프로젝트명**: Antigravity Mode Toggle
 - **설명**: Antigravity 확장의 에이전트 모드(Fast/Planning)를 단축키로 전환하는 VS Code 확장 프로그램
+- **제작자**: Simplesoft (심플소프트)
 - **핵심 스택**: TypeScript, VS Code Extension API, Node.js
 
 ---
