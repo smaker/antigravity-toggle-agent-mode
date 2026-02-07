@@ -1,0 +1,6 @@
+{
+    "antigravity.displayName": "Antigravity Mode Toggle",
+    "antigravity.description": "Shortcuts to switch Antigravity Agent between Fast and Planning modes",
+    "antigravity.command.switchToFast": "Antigravity: Switch to Fast Mode",
+    "antigravity.command.switchToPlanning": "Antigravity: Switch to Planning Mode"
+}

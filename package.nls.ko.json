@@ -1,0 +1,6 @@
+{
+    "antigravity.displayName": "Antigravity 모드 전환",
+    "antigravity.description": "Antigravity 에이전트를 Fast 모드와 Planning 모드로 전환하는 단축키",
+    "antigravity.command.switchToFast": "Antigravity: Fast 모드로 전환",
+    "antigravity.command.switchToPlanning": "Antigravity: Planning 모드로 전환"
+}

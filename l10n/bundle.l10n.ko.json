@@ -1,0 +1,7 @@
+{
+    "Antigravity Mode Toggle is now active!": "Antigravity 모드 전환이 활성화되었습니다!",
+    "Antigravity: Switched to Fast Mode": "Antigravity: Fast 모드로 전환되었습니다",
+    "Antigravity: Switched to Planning Mode": "Antigravity: Planning 모드로 전환되었습니다",
+    "Failed to switch to Fast Mode. specific internal command not found.": "Fast 모드로 전환 실패. 내부 명령어를 찾을 수 없습니다.",
+    "Failed to switch to Planning Mode. specific internal command not found.": "Planning 모드로 전환 실패. 내부 명령어를 찾을 수 없습니다."
+}
